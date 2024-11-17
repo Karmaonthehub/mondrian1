@@ -82,15 +82,28 @@
     .five {
       background-color: #F0F1EC;
     }
-        @media screen and (max-device-width: 480px) and (orientation: portrait) {
+    @media (max-width: 768px){
       body {
       display: flex;
       flex-direction:  column;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      scale: .5;
+      scale: .7;
     }
+    }
+    /* made for phones  */
+    @media (max-width: 480px ){
+      body {
+      display: flex;
+      flex-direction:  column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      scale: .4;
+    }
+    }
+
 
   </style>
 </head>
